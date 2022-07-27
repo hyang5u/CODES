@@ -1,0 +1,64 @@
+.credit{
+  text-align: center; 
+  font-size: 6px; 
+  text-transform:uppercase; 
+  margin-top:-40px;
+} 
+
+.credit:before{
+  content: 'crédits:'; 
+  padding-right: 2px; 
+  opacity: 0.7;
+} 
+
+.fd_firp{
+  height:auto; 
+  min-height:80px;
+} 
+
+.firp{
+  width: 280px !important; 
+  height:auto !important; 
+  min-height:80px !important;
+} 
+
+.nrpimg{
+  margin-top:25px; 
+  border-radius:100%; 
+  width:50px; 
+  height: 50px; 
+  padding:5px; 
+  border: 1px solid var(--noir); 
+  filter:grayscale(100); 
+  transition: all 800ms ease-in-out;
+} 
+
+.nrpimg:hover{
+  filter:grayscale(0);
+} 
+
+.tlk{
+  color: var(--hc); 
+  font-weight: 700; 
+  font-style: italic;
+
+} 
+
+.nrp{
+  font-size: 10px; 
+  padding: 8px 50px 40px; 
+  line-height:120%; 
+  text-align: justify;
+} 
+
+.nrptt{
+  padding: 3px 0px 20px; 
+  line-height:90%;
+} 
+
+.nrpline{
+  height:1px; 
+  width:30%; 
+  background-color: var(--noir); 
+  opacity:0.5;
+}
