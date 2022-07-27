@@ -1,0 +1,86 @@
+.itnm{
+  text-align:right; 
+  line-height:80%; 
+  padding-right:15px;
+} 
+
+.itqt{
+  font-family:montserrat; 
+  font-size: 8px; 
+  font-style: italic; 
+  line-height: 150%; 
+  text-transform: lowercase; 
+  padding-left:15px;
+} 
+
+.itms{
+  font-family: montserrat; 
+  font-size:9px; 
+  padding-right:2px;
+} 
+
+.aesig{
+  border-radius:100%; 
+  width: 55px; 
+  height: 55px; 
+  object-fit: cover; 
+  padding:6px; 
+  border: 1px solid var(--noir);
+} 
+
+.fxtb{
+  table-layout: fixed; 
+  width:100%;
+} 
+
+.td2{
+  width: calc(100%/2); 
+  padding-right:10px;
+} 
+
+.msaes{
+  font-family: montserrat; 
+  font-size:9px; 
+  line-height:110%; 
+  max-height: 65px; 
+  overflow-y: auto;
+} 
+
+.tthsl{
+  padding-left:15px; 
+  line-height:80%;
+} 
+
+.tthsr{
+  text-align:right; 
+  padding-right:10px; 
+  line-height:80%;
+} 
+
+.yrhs{
+  font-size:7px; 
+  text-transform:uppercase;
+} 
+
+.mshs{
+  font-size:9px; 
+  line-height:110%; 
+  max-height: 65px; 
+  overflow-y: auto; 
+  font-family: montserrat;
+} 
+
+.ichstd{
+  width: 25%; 
+  text-align: center; 
+  vertical-align : middle;
+} 
+
+.ichs{
+  font-size:15px; 
+  color: var(--c5);
+} 
+
+#nosc::-webkit-scrollbar{
+  display: none;
+}
