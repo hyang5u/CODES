@@ -1,5 +1,5 @@
 .bgrp a{
-  color: var(--color-button);
+  color: var(--hc);
 } 
 
 .bgrp{
@@ -28,7 +28,7 @@
 .dia{
   font-weight: 900; 
   font-style: italic;
-  color: var(--color-button);
+  color: var(--hc);
 } 
 
 .st{
@@ -66,7 +66,7 @@
   height: 35px; 
   border-radius: 100%; 
   padding:5px; 
-  background: linear-gradient(45deg, var(--grad1), var(--grad2)); 
+  background: linear-gradient(45deg, var(--c1), var(--c2)); 
   transition: all 2s ease-in-out; 
   filter: grayscale(100%);
 } 
@@ -80,7 +80,7 @@
 .linecol{
   width:auto; 
   height: 3px; 
-  background: linear-gradient(45deg, var(--grad1), var(--grad2)); 
+  background: linear-gradient(45deg, var(--c1), var(--c2)); 
   transition: all 1s ease-in-out; 
   filter: grayscale(100%); 
   margin-right:75px; 
