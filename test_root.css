@@ -1,0 +1,50 @@
+:root {
+  --cbg_rp: 31, 31, 31;
+}
+
+.tprp{
+  background-color: var(--blanc); 
+  width:250px; 
+  height:80px; 
+  border-radius:10px 10px 0px 0px;
+} 
+
+.trpup{
+  width:100%; 
+  height:100%; 
+  vertical-align:middle;
+} 
+
+.ltdtp{
+  height:100%; 
+  width:30%; 
+  text-align:center;
+} 
+
+.imgrpup{
+  height:40px; 
+  width:40px; 
+  padding:3px; 
+  border: 1px solid var(--accentb); 
+  object-fit: cover; 
+  border-radius:100%; 
+  filter:grayscale(100); 
+  transition: all 800ms ease-in-out;
+} 
+
+.imgrpup:hover{
+  filter:grayscale(0);
+} 
+
+.titup{
+  font-family: 'Bebas Neue', cursive; 
+  font-size:14px; 
+  color: var(--noir);
+} 
+
+.bg_rp2{
+  background-color: rgba(var(--cbg_rp), 0.5); 
+  min-height:150px; 
+  width:250px; 
+  border-radius:15px 15px 10px 10px;
+}
