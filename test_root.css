@@ -41,7 +41,7 @@
 } 
 
 .bg_rp2{
-  background-color: var(--accentb) !important; 
+  background-color: var(--body2) !important; 
   min-height:250px !important; 
   width:250px !important; 
   border-radius:15px 15px 10px 10px;
@@ -91,7 +91,7 @@ ctrp::before{
 .txt_rp{
   font-size:10px; 
   line-height:120%; 
-  padding: 10px 30px 25px 30px; 
+  padding: 10px 30px 20px 30px; 
   text-align:justify; 
   font-family: 'Mulish',sans-serif;
 }
