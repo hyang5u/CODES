@@ -41,12 +41,12 @@
 } 
 
 .bg_rp2{
-  background-color: var(--body2) !important; 
+  background-color: var(--catb);
+  opacity: 0.9;
   min-height:250px !important; 
   width:250px !important; 
   border-radius:15px 15px 10px 10px;
   margin:auto;
-  padding-bottom:10px;
 }
 
 .ootd{
@@ -66,7 +66,7 @@
 } 
 
 .ootd a{
-  color: var(--blanc);
+  color: var(--noir);
 } 
 
 spe{
@@ -91,7 +91,7 @@ ctrp::before{
 .txt_rp{
   font-size:10px; 
   line-height:120%; 
-  padding: 10px 30px 20px 30px; 
+  padding: 10px 30px 30px 30px; 
   text-align:justify; 
   font-family: 'Mulish',sans-serif;
 }
