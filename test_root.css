@@ -48,3 +48,39 @@
   width:250px; 
   border-radius:15px 15px 10px 10px;
 }
+
+.ootd{
+  height:auto; 
+  width:100%; 
+  background: linear-gradient(45deg, var(--c6), var(--c5)); 
+  filter: grayscale(100); 
+  transition: all 500ms ease-in-out; 
+  text-align: center; 
+  text-transform: uppercase; 
+  font-size: 7px;} 
+
+.ootd:hover{
+  filter: grayscale(0);
+} 
+
+.ootd a{
+  color: var(--blanc);
+} 
+
+spe{
+  font-family: arial black; 
+  font-weight:700; 
+  color: var(--c5);
+} 
+
+ctrp{
+  font-size:8px; 
+  font-style: italic; 
+  font-family: times new roman; 
+  color: var(--noir); 
+  opacity:0.8;
+}
+
+ctrp::before{
+  content: "❛";
+}
