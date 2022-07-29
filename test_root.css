@@ -43,7 +43,7 @@
 } 
 
 .bg_rp2{
-  background-color: rgba(var(--cbg_rp), 0.5); 
+  background-color: rgba(var(--brd)); 
   min-height:150px; 
   width:250px; 
   border-radius:15px 15px 10px 10px;
