@@ -82,3 +82,11 @@ ctrp::before{
   content: "❛";
   padding-right:3px;
 }
+
+.txt_rp{
+  font-size:10px; 
+  line-height:120%; 
+  padding: 10px 30px 33px 30px; 
+  text-align:justify; 
+  font-family: 'Mulish',sans-serif;
+}
