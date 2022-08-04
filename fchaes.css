@@ -86,9 +86,17 @@
 }
 
 div.contenu div.nxt1:not(:target) {
-  display: none
+  display: none;
 } 
 
 div.contenu div.nxt1:target {
-  display: block
+  display: block;
+}
+
+div.his_dis div.nxt2:not(:target) {
+  display: none;
+} 
+
+div.his_dis div.nxt2:target {
+  display: block;
 }
