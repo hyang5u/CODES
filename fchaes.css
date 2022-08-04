@@ -84,3 +84,11 @@
 #nosc::-webkit-scrollbar{
   display: none;
 }
+
+div.contenu div.nxt1:not(:target) {
+  display: none
+} 
+
+div.contenu div.nxt1:target {
+  display: block
+}
