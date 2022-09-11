@@ -106,7 +106,7 @@
 
 #txt{
   opacity:0; 
-  transition: 800ms ease-in-out;
+  transition: 500ms ease-in-out;
 } 
 
 #showtxt:hover + #txt{
