@@ -1,0 +1,138 @@
+.ctr2{
+  padding: 10px; 
+  border: 1px solid var(--blanc); 
+  border-radius: 15px; 
+  width:400px;
+} 
+
+.bg_lk{
+  background-color: var(--blanc); 
+  width:400px; 
+  min-height:150px; 
+  padding-bottom:20px; 
+  padding-top:20px;
+} 
+
+.img_lk1{
+  width:40px; 
+  height:40px; 
+  object-fit:cover; 
+  border-radius:100%; 
+  padding:5px; 
+  border: 1px solid var(--c6); 
+  filter: grayscale(100%); 
+  transition: filter 500ms ease-in-out, transform 1s ease-in-out;
+} 
+
+.img_lk2{
+  width:40px; 
+  height:40px; 
+  object-fit:cover; 
+  border-radius:100%; 
+  padding:5px; 
+  border: 1px solid var(--c3); 
+  filter: grayscale(100%); 
+  transition: filter 500ms ease-in-out, transform 1s ease-in-out;
+} 
+
+.img_lk1:hover, .img_lk2:hover{
+  filter: grayscale(0); 
+  transform: rotate(-25deg);
+} 
+
+.tb_lk{
+  table-layout: fixed; 
+  width:100%; 
+  vertical-align:middle; 
+  padding-right:35px; 
+  padding-left:25px;
+} 
+
+.td_lk20{
+  width:20%; 
+  text-align: center;
+} 
+
+.td_lk80{
+  width:80%; 
+  text-align: justify; 
+  padding-left:10px;
+} 
+
+.user_lk1{
+  font-family: archivo black; 
+  font-size: 9px; 
+  text-transform:uppercase; 
+  display: inline; 
+  color: var(--c3);
+} 
+
+.user_lk2{
+  font-family: archivo black; 
+  font-size: 9px; 
+  text-transform:uppercase; 
+  display: inline; 
+  color: var(--c6);
+} 
+
+.lk_lk{
+  width:100%; 
+  overflow-y:auto; 
+  max-height: 40px; 
+  font-family: 'Mulish', sans-serif; 
+  font-size:9px; 
+  line-height:110%; 
+  display: block;
+} 
+
+#nosc::-webkit-scrollbar{
+  display: none;
+} 
+
+.tt_lk{
+  font-family: serif; 
+  font-style: italic; 
+  font-size: 9px; 
+  display:inline;
+} 
+
+.tb_btm_lk{
+  table-layout: fixed; 
+  width:100%; 
+  direction:rtl; 
+  text-align:right; 
+  margin-top:-3px;
+} 
+
+#txt{
+  opacity:0; 
+  transition: 800ms ease-in-out;
+} 
+
+#showtxt:hover + #txt{
+  opacity:1;
+} 
+
+.td_kw_lk{
+  direction:ltr; 
+  text-align:right !important; 
+  width:95%; 
+  margin-right:0;
+} 
+
+.kw_lk{
+  font-family: archivo black; 
+  text-transform: uppercase; 
+  font-size: 7px; 
+  line-height:100%;
+} 
+
+.icon_btm_lk1{
+  font-size:8px; 
+  color: var(--c1);
+} 
+
+.icon_btm_lk2{
+  font-size:8px; 
+  color: var(--c4);
+}
