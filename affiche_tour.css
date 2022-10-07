@@ -144,3 +144,33 @@
 .conc_tt:hover{
 	color: darkred !important;
 }
+
+.bg_conc_chg::before{
+	background: url('https://i.pinimg.com/564x/b4/17/0a/b4170aeeefa911e33bee93ad1c5fa193.jpg') !important; 
+	height: 550px !important;
+} 
+
+.bg_conc_chg{
+	height: 550px !important;
+}
+
+.cont_dt_chg{
+	margin-left:15px !important; 
+	margin-right:15px !important; 
+	height:350px;
+} 
+
+.conc_dtl_chg{
+	line-height:175% !important; 
+	width:50% !important; 
+	display:inline-block;
+} 
+
+nb{
+	font-size:9px;
+} 
+
+.conc_dtl_chg2{
+	line-height:175% !important; 
+	text-align:right !important;
+}
