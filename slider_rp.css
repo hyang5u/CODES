@@ -159,6 +159,7 @@ lft2:hover{
 	width:45px;
 	height:45px; 
 	border: 5px var(--c3) solid;
+	background-color: var(--c3);
 	object-fit: cover;
 	border-radius: 100%;
 	position: relative;
@@ -169,7 +170,8 @@ lft2:hover{
 	top:-24px; 
 	width:45px;
 	height:45px; 
-	border: 5px var(--c6) solid; 
+	border: 5px var(--c6) solid;
+	background-color: var(--c6);
 	object-fit: cover; 
 	border-radius: 100%; 
 	position: relative; 
