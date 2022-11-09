@@ -37,7 +37,7 @@
 
 .img_lk1:hover, .img_lk2:hover{
   filter: grayscale(0); 
-  transform: rotate(-25deg);
+  transform: rotate(-12deg);
 } 
 
 .tb_lk{
