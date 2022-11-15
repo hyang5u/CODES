@@ -381,11 +381,13 @@ igb{
 
 .left-icon{
 	padding-right: .1875rem;
+	color: var(--IGwhite);
 } 
 
 .right-icon{
 	padding-left: .625rem; 
 	padding-right: .1875rem;
+	color: var(--IGwhite);
 } 
 
 .PIC-multi{
