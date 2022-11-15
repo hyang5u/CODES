@@ -63,7 +63,8 @@
 
 .IG-icon-sidebar{
 	display: inline-block; 
-	padding-right: .5rem; 
+	padding-right: .5rem;
+	color: var(--IGblack);
 	font-weight: 900; 
 	font-size: 0.8rem; 
 	transition: transform 450ms ease;
