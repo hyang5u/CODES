@@ -315,7 +315,7 @@ igb{
 
 .icon-nav{
 	padding-right: .25rem;
-	color: var(--IGblack);
+	color: var(--IGgrey);
 } 
 
 #nav-onglet-actif{
@@ -411,4 +411,8 @@ igb{
 
 .PIC-main::-webkit-scrollbar{
 	display: none;
+}
+
+.IGblack{
+	color: var(--IGblack);
 }
