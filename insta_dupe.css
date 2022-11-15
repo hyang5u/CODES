@@ -315,6 +315,7 @@ igb{
 
 .icon-nav{
 	padding-right: .25rem;
+	color: var(--IGblack);
 } 
 
 #nav-onglet-actif{
