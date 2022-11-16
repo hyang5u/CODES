@@ -148,6 +148,7 @@ user{
 .COM-add-comment{
 	background: transparent; 
 	border: transparent;
+	background-color: var(--IGwhite) !important;
 } 
 
 .COM-add-comment:focus{
