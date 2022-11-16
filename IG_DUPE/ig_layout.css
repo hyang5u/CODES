@@ -408,7 +408,6 @@ igb{
 	text-transform: uppercase; 
 	color: var(--IGdarkgrey); 
 	letter-spacing: .0625rem; 
-	margin-top: -0.5rem;
 } 
 
 .PIC-main::-webkit-scrollbar{
