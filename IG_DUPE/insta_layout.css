@@ -407,7 +407,8 @@ igb{
 	font: 0.4rem courier new; 
 	text-transform: uppercase; 
 	color: var(--IGdarkgrey); 
-	letter-spacing: .0625rem; 
+	letter-spacing: .0625rem;
+	margin-top: 0.3125rem;
 } 
 
 .PIC-main::-webkit-scrollbar{
