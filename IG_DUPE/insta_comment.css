@@ -37,3 +37,30 @@
 	object-fit: cover; 
 	margin-right: 3px;
 }
+
+.CM-bg-grad{
+	display: flex; 
+	align-items: center;
+	justify-content: center; 
+	width: 2.625rem; 
+	height: 2.625rem; 
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+	border-radius: 100%;
+}
+
+.CM-img-profil{
+	cursor: pointer; 
+	width: 2.1875rem; 
+	height: 2.1875rem; 
+	object-fit: cover;
+	border-radius: 100%; 
+	padding: 0.125rem; 
+	background: var(--IGoffwhite);
+}
+
+user{
+	cursor: pointer;
+	display: inline-block; 
+	font-weight: 700; 
+	font-size: .8rem;
+}
