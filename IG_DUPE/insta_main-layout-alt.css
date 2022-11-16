@@ -21,6 +21,8 @@
 	width: 28.125rem; 
 	max-width: 28.125rem; 
 	height: 45.9375rem;
+	border-radius: .5rem;
+	border: 0.0625rem solid var(--IGgrey);
 } 
 
 .IG-bg-main--alt{
