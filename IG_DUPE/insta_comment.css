@@ -1,0 +1,39 @@
+.IGC-bg{
+	width: 450px; 
+	height: auto; 
+	background-color: var(--IGwhite); 
+	border: 1px solid var(--IGgrey); 
+	border-radius: 8px; 
+	font-family: var(--font-family-system);
+} 
+
+.CM-comment{
+	display:grid; 
+	grid-template-columns: 1fr 5fr; 
+	height: 100%; 
+	align-items: center; 
+	padding: 15px 10px;
+} 
+
+.CM-main-comment{
+	line-height: 125%; 
+	text-align: left; 
+	color: var(--IGblack);
+} 
+
+.CM-time{
+	cursor: pointer; 
+	text-transform: uppercase; 
+	letter-spacing: .2px; 
+	color: var(--IGdarkgrey); 
+	font-weight: 400; 
+	font-size: 9px; 
+	margin-top: 2px;
+} 
+
+.CM-verif-check{
+	width: 12px; 
+	height: 12px; 
+	object-fit: cover; 
+	margin-right: 3px;
+}
