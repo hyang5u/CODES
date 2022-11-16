@@ -1,0 +1,66 @@
+.IGC-bg{
+	width: 450px; 
+	height: auto; 
+	background-color: var(--IGwhite); 
+	border: 1px solid var(--IGgrey); 
+	border-radius: 8px; 
+	font-family: var(--font-family-system);
+} 
+
+.CM-comment{
+	display:grid; 
+	grid-template-columns: 1fr 5fr; 
+	height: 100%; 
+	align-items: center; 
+	padding: 15px 10px;
+} 
+
+.CM-main-comment{
+	line-height: 125%; 
+	text-align: left; 
+	color: var(--IGblack);
+} 
+
+.CM-time{
+	cursor: pointer; 
+	text-transform: uppercase; 
+	letter-spacing: .2px; 
+	color: var(--IGdarkgrey); 
+	font-weight: 400; 
+	font-size: 9px; 
+	margin-top: 2px;
+} 
+
+.CM-verif-check{
+	width: 12px; 
+	height: 12px; 
+	object-fit: cover; 
+	margin-right: 3px;
+}
+
+.CM-bg-grad{
+	display: flex; 
+	align-items: center;
+	justify-content: center; 
+	width: 2.625rem; 
+	height: 2.625rem; 
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+	border-radius: 100%;
+}
+
+.CM-img-profil{
+	cursor: pointer; 
+	width: 2.1875rem; 
+	height: 2.1875rem; 
+	object-fit: cover;
+	border-radius: 100%; 
+	padding: 0.125rem; 
+	background: var(--IGoffwhite);
+}
+
+user{
+	cursor: pointer;
+	display: inline-block; 
+	font-weight: 700; 
+	font-size: .8rem;
+}
