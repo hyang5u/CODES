@@ -122,6 +122,10 @@
 	transform: translateX(0%);
 } 
 
+.TS_slide-title-dark:hover > .TS_line-title{
+	transform: translateX(0%);
+}
+
 .TS_rp-txt{
 	text-align: justify; 
 	margin: 0px 40px 27px 40px; 
