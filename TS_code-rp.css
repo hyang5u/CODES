@@ -48,6 +48,23 @@
 
 .TS_slide-title:hover{
 	color: var(--c4);
+}
+
+.TS_slide-title-dark{
+	align-self: end; 
+	display: inline-block; 
+	overflow: hidden; 
+	padding: 8px 15px 6px 0; 
+	font-family: 'Dongle', sans-serif; 
+	font-size: 15px; 
+	font-weight:100; 
+	color: var(--c2); 
+	text-transform: uppercase; 
+	transition: color 500ms ease 200ms;
+} 
+
+.TS_slide-title-dark:hover{
+	color: var(--c5);
 } 
 
 .TS_slide-flex{
