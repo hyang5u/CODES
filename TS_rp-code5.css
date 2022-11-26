@@ -37,7 +37,7 @@
 	display: inline-block;
 	position: absolute;
 	right: .9375rem;
-	bottomp: .375rem;
+	bottom: .375rem;
 	overflow: hidden; 
 	padding: .5rem 0 0 0; 
 	font-family: 'Dongle', sans-serif; 
