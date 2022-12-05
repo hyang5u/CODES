@@ -1,0 +1,144 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dongle&family=Montserrat&family=MuseoModerno&display=swap'); 
+.TL_main{
+	width: 450px; 
+	height: 450px; 
+	overflow-y: auto; 
+	padding: 20px 10px; 
+	border: 1px solid var(--blanc); 
+	border-radius: 10px;
+} 
+
+.TL_main::-webkit-scrollbar{
+	display:none;
+} 
+
+.TL_element-box{
+	display:flex; 
+	justify-content: center; 
+	align-items: center; 
+	width: 100%;
+} 
+
+.TL_main-box{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	width:70%;
+	height: 100px;
+	background: var(--brd);
+	border-radius: 10px;
+} 
+
+.TL_icon-box{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	width:20%;
+} 
+
+.TL_icon{
+	padding:10px; 
+	background: var(--c3); 
+	border-radius: 10px; 
+	font-size: 20px; 
+	color: var(--c1);
+	transform: translateX(50%);
+}
+
+.icon-hover{
+	transform: translateX(-50%); 
+	background: var(--c6); 
+	color: var(--c5); 
+	opacity: 0; 
+	transition: opacity 500ms ease;
+} 
+
+.icon-hover:hover{
+	opacity: 1; 
+	cursor:pointer;
+}
+
+.TL_info-box{
+	display: flex; 
+	justify-content: start; 
+	align-items: center;
+	background: var(--blanc); 
+	border-radius: 0 10px 10px 0; 
+	width: calc(30% - 10px);
+	height: calc(100% - 10px); 
+	padding: 5px;
+} 
+
+.info-box-left{
+	border-radius: 10px 0px 0px 10px;
+} 
+
+.TL_infos{
+	margin-left: .625rem; 
+	width: 66%;
+	font-family: var(--main-font); 
+	font-size: 7px; 
+	letter-spacing: 0.2px; 
+	line-height: 150%; 
+	color: var(--noir); 
+	text-transform: uppercase; 
+	text-align: left;
+} 
+
+.info-icon{
+	color: var(--c3);
+	padding-right: 1px; 
+	font-size: 7px;
+} 
+
+.TL_recap-title{
+	display: inline-block;
+	overflow: hidden; 
+	font-family: 'Dongle', sans-serif; 
+	font-size: .9375rem; 
+	font-weight: 100;
+	color: var(--c3);
+	text-transform: uppercase; 
+	transition: color 500ms ease 200ms;
+} 
+
+.TL_recap-title:hover{
+	color: var(--c4);
+} 
+
+.TL_line-title{
+	width:100%;
+	height:1px; 
+	background-color: var(--c4); 
+	transform: translateX(-101%); 
+	transition: transform 750ms ease; 
+	margin-top:-0.125rem;
+} 
+
+.TL_recap-title:hover > .TL_line-title{
+	transform: translateX(0%);
+} 
+
+.TL_rp-recap{
+	height:50px;
+	overflow-y: auto; 
+	font-size: 8px; 
+	text-align:justify; 
+	font-family: 'Montserrat', sans-serif; 
+	line-height: 150%; 
+	margin-top: 1px;
+} 
+
+.TL_rp-recap::-webkit-scrollbar{
+	display:none;
+}
+
+.TL_rp-recap-box{
+	display: flex; 
+	flex-direction: column; 
+	width: 70%; 
+	justify-content: center; 
+	align-items: start; 
+	margin: 5px 15px;
+}
