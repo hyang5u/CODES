@@ -142,3 +142,13 @@
 	align-items: start; 
 	margin: 5px 15px;
 }
+
+.alt-tl{
+	background-color: var(--hs); 
+	color: var(--pwf);
+} 
+
+.alt-tl-hover{
+	background-color: var(--pwf); 
+	color: var(--hs);
+}
