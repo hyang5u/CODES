@@ -75,8 +75,8 @@
 } 
 
 .TL_infos{
-	margin-left: .625rem; 
-	width: 66%;
+	margin: 0 0 0 5px; 
+	width:100%;
 	font-family: var(--main-font); 
 	font-size: 7px; 
 	letter-spacing: 0.2px; 
