@@ -6,13 +6,13 @@
 	width:100%;
 	justify-content: center;
 	height: 150px;
-	overflow: hidden;
 	margin-top: 10px;
 } 
 
 .TL_disc-rp-box{
 	position: relative;
 	z-index: 2;
+	overflow-y: hidden;
 	width: calc(90% / 3); 
 	margin: 0 5px;
 } 
