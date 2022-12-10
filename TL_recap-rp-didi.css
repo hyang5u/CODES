@@ -1,0 +1,112 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dongle&family=Montserrat&family=MuseoModerno&display=swap'); 
+
+.TL_disc-box{
+	display: flex; 
+	width:100%;
+	justify-content: center;
+	height: 150px;
+	margin-top: 10px;
+} 
+
+.TL_disc-rp-box{
+	position: relative;
+	z-index: 2;
+	overflow-y: hidden;
+	width: calc(90% / 3); 
+	margin: 0 5px;
+} 
+
+.TL_disc-cont{
+	width: 100%; 
+	height: 100%; 
+	background-color: var(--brd); 
+	border-radius: 10px;
+} 
+
+.TL_top-cont{
+	display: flex; 
+	width:100%;
+} 
+
+.TL_rp-info{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	background-color: var(--blanc);
+	width: 50%;
+	height: 35px;
+	color: var(--c3);
+} 
+
+.info-date{
+	border-radius: 10px 0 0 0;
+} 
+
+.info-place{
+	border-radius: 0 10px 0 0;
+}
+
+.info-hover{
+	transform: translateY(-100%); 
+	opacity: 0;
+	transition: opacity 500ms ease;
+}
+
+.info-hover:hover{
+	opacity: 1;
+}
+
+inf{
+	font-family: var(--main-font); 
+	font-size: 7px; 
+	letter-spacing: 0.2px; 
+	line-height: 150%; 
+	color: var(--noir); 
+	text-transform: uppercase;
+} 
+
+.TL_di-rp-recap{
+	height: calc(100% - 63px); 
+	overflow-y: auto;
+	transform: translateY(-40px); 
+	font-size: 8px;
+	text-align:justify; 
+	font-family: 'Montserrat', sans-serif;
+	line-height: 150%;
+	padding: 0 15px;
+}
+
+.TL_di-rp-recap::-webkit-scrollbar{
+	display:none;
+}
+
+.TL_disc-rp-hover{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transform: translateY(-100%); 
+	background: var(--blanc);
+	transition: transform 850ms ease;
+}
+
+.TL_disc-rp-box:hover > .TL_disc-rp-hover{
+	transform: translateY(0%);
+}
+
+.DI_icon{
+	padding:10px;
+	background: var(--c3); 
+	border-radius: 10px; 
+	font-size: 20px; 
+	color: var(--c1);
+}
+
+.inf-titre{
+	line-height: 125%; 
+	margin-top: 10px;
+}
