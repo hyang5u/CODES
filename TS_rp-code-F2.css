@@ -115,7 +115,7 @@
 .TS_line-title{
 	width:100%; 
 	height:1px; 
-	background-color: var(--c3); 
+	background-color: var(--c6); 
 	transform: translateX(-101%); 
 	transition: transform 750ms ease; 
 	margin-top:-0.125rem;
