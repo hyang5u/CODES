@@ -70,3 +70,32 @@ shoot-box{
 	line-height: 125%; 
 	text-transform: lowercase !important;
 }
+
+.first-icon{
+	transition: opacity 475ms ease;
+} 
+
+.hov-icon{
+	display: inline-block; 
+	color: var(--c3); 
+	opacity: 0; 
+	position: relative; 
+	transform: translate(-100%); 
+	transition: opacity 475ms ease;
+} 
+
+icons{
+	margin-right: -5px; 
+	font-size: 8px;
+} 
+icons:hover > .first-icon{
+	opacity:0;
+} 
+
+icons:hover > .hov-icon{
+	opacity:1;
+} 
+
+.new-inf{
+	font-size:10px;
+}
