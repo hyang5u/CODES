@@ -129,18 +129,18 @@ imghov{
 	overflow: hidden;
 } 
 
-.shoot-prev{
+.prod-prev{
 	width: 55px !important; 
 	height: 55px !important; 
 	border-radius: 10%; 
 	object-fit: cover;
 } 
 
-.shoot-prev:hover{
+.prod-prev:hover{
 	transform: scale(125%);
 } 
 
-.shootinf{
+.prodinf{
 	display: flex; 
 	flex-direction: column; 
 	justify-content: center; 
@@ -150,7 +150,7 @@ imghov{
 	margin-left: 5px !important;
 } 
 
-.shootinf::-webkit-scrollbar{
+.prodinf::-webkit-scrollbar{
 	display: none;
 } 
 
