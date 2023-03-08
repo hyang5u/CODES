@@ -102,3 +102,58 @@ icons:hover > .hov-icon{
 .new-inf{
 	font-size:10px;
 }
+
+prod-cont{
+	display: grid; 
+	justify-content: center !important; 
+	padding-left: 5px; 
+	grid-template-columns: repeat(3, 1fr); 
+	grid-gap: 5px; 
+	row-gap: 5px; 
+	height: auto; 
+	margin-top: 8px;
+} 
+
+prodbox{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	text-align: left; 
+	height: auto;
+} 
+
+imghov{
+	width: 55px !important; 
+	height: 55px !important; 
+	border-radius: 10%; 
+	overflow: hidden;
+} 
+
+.shoot-prev{
+	width: 55px !important; 
+	height: 55px !important; 
+	border-radius: 10%; 
+	object-fit: cover;
+} 
+
+.shoot-prev:hover{
+	transform: scale(125%);
+} 
+
+.shootinf{
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	width: calc(100% - 60px) !important; 
+	height: 60px !important; 
+	overflow: auto; 
+	margin-left: 5px !important;
+} 
+
+.shootinf::-webkit-scrollbar{
+	display: none;
+} 
+
+.d-norm{
+	text-transform: none !important;
+}
