@@ -1,0 +1,159 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+.onglet_cont::-webkit-scrollbar{
+	display: none;
+} 
+
+.yy{
+	margin-left: 25px; 
+	border-radius: 30px; 
+	background: var(--noir); 
+	color: var(--blanc); 
+	padding: 1px 5px; 
+	font-size: 7px;
+} 
+
+prod-box{
+	display: block;
+	margin: 10px 50px 0px 50px;
+} 
+
+.new-inf{
+	width: auto; 
+	text-transform: uppercase; 
+	line-height: 150%; 
+	font-size: 9.5px;
+} 
+
+shoot-cont{
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr); 
+	grid-gap: 5px; 
+	row-gap: 10px; 
+	width: 80%; 
+	height: auto; 
+	justify-content: center; 
+	margin-top: 8px;
+}
+
+img-hov{
+	width: 60px; 
+	height: 60px; 
+	border-radius: 10%; 
+	overflow: hidden;
+} 
+
+shoot-box{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	text-align: left; 
+	height: auto;
+} 
+
+.shoot-preview{
+	width: 60px; 
+	height: 60px; 
+	border-radius: 10%; 
+	object-fit: cover;
+} 
+
+.shoot-preview:hover{
+	transform: scale(125%);
+} 
+
+.shoot-inf{
+	width: 60% !important; 
+	height: auto; 
+	margin-left: 8px !important;
+} 
+
+.d-low{
+	line-height: 125%; 
+	text-transform: lowercase !important;
+}
+
+.first-icon{
+	transition: opacity 475ms ease;
+} 
+
+.hov-icon{
+	display: inline-block; 
+	color: var(--c3); 
+	opacity: 0; 
+	position: relative; 
+	transform: translate(-100%); 
+	transition: opacity 475ms ease;
+} 
+
+icons{
+	margin-right: -5px; 
+	font-size: 8px;
+} 
+
+icons:hover > .first-icon{
+	opacity:0;
+} 
+
+icons:hover > .hov-icon{
+	opacity:1;
+} 
+
+.new-inf{
+	font-size:10px;
+}
+
+prod-cont{
+	display: grid; 
+	justify-content: center !important; 
+	padding-left: 5px; 
+	grid-template-columns: repeat(3, 1fr); 
+	grid-gap: 5px; 
+	row-gap: 5px; 
+	height: auto; 
+	margin-top: 8px;
+} 
+
+prodbox{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	text-align: left; 
+	height: auto;
+} 
+
+imghov{
+	width: 55px !important; 
+	height: 55px !important; 
+	border-radius: 10%; 
+	overflow: hidden;
+} 
+
+.prod-prev{
+	width: 55px !important; 
+	height: 55px !important; 
+	border-radius: 10%; 
+	object-fit: cover;
+} 
+
+.prod-prev:hover{
+	transform: scale(125%);
+} 
+
+.prodinf{
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	width: calc(100% - 60px) !important; 
+	height: 60px !important; 
+	overflow: auto; 
+	margin-left: 5px !important;
+} 
+
+.prodinf::-webkit-scrollbar{
+	display: none;
+} 
+
+.d-norm{
+	text-transform: none !important;
+}
