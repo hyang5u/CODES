@@ -11,7 +11,7 @@ a-ctr {
 
 a-bg {
     display: block;
-    width: 125px;
+    width: 250px;
     min-height: 125px;
     background: var(--brd);
 }
