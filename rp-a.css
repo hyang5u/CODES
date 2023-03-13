@@ -57,6 +57,7 @@ r-col {
     flex-direction: column;
     justify-content: center;
     align-items: end;
+    text-align: right;
 }
 
 a-tt {
